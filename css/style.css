@@ -11,7 +11,7 @@
 body{
   padding: 0;
   margin: 0;
-  height: 2000px;
+  height: 3500px;
 }
 .container{
   max-width: 1148px;
@@ -65,10 +65,10 @@ body{
 .main-header-text a{
   display: inline-block;
   background-color: #00BAFC;
+  color: #fff;
   border:none;
   border-radius: 5px;
   padding: 8px 16px;
-  color: #fff;
   text-decoration: none;
 }
 .hr-center{
@@ -80,3 +80,128 @@ body{
   border-radius: 5px;
 }
 /* ==================main-header-text end================== */
+.middle-servis h2{
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 12px;
+}
+.middle-servis .p-top{
+  width: 719px;
+  height: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 24px;
+}
+.middle-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 48px;
+}
+.middle-list li{
+  width: 320px;
+  list-style-type: none;
+  text-align: center;
+  box-shadow: 0 2px 5px #ccc;
+  border: 1px solid #000;
+}
+.middle-links {
+  display: block;
+  text-align: center;
+  margin-bottom: 56px;
+}
+.middle-links .first-link{
+  display: inline-block;
+  background-color: #00BAFC;
+  border:none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  color: #fff;
+  text-decoration: none;
+}
+.middle-links .second-link{
+  color: #00BAFC;
+  margin-left: 20px;
+}
+/* ==================middle-services end================== */
+.how-w-w-header{
+  display: block;
+  width: 719px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 22px;
+  text-align: center;
+}
+.suppots{
+  width: 814px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+.how-w-w-link{
+  display: block;
+  text-align: center;
+  margin: 50px 0 56px;
+}
+.how-w-w-link a{
+  display: inline-block;
+  background-color: #00BAFC;
+  border:none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  color: #fff;
+  text-decoration: none;
+}
+/* ==================middle-how-we-work end================== */
+.form{
+  padding-bottom: 64px;
+}
+.middle-bottom{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 56px;
+  background-color: #00BAFC;
+}
+.form-input{
+  display: block;
+  width: 348px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+  background-color: #fff;
+}
+.form-input *{
+  margin-bottom: 16px;
+}
+.form-input input:focus{
+  outline: none;
+}
+.form-input input{
+  display: block;
+  width: 300px;
+  height: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: #F3F3F3;
+}
+.form-input button{
+  display: block;
+  background-color: #00BAFC;
+  border:none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  text-decoration: none;
+}
