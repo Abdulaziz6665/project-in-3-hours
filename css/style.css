@@ -1,14 +1,16 @@
 @font-face {
-  font-family: "Product Sans";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/Product/Sans/Regular.ttf") format("ttf");
+  src: url("../fonts/roboto-v20-latin-regular.woff2") format("woff2"),
+       url("../fonts/roboto-v20-latin-regular.woff") format("woff");
 }
 @font-face {
-  font-family: "Product Sans";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/Product/Sans/Bold.ttf") format("ttf");
+  src: url("../fonts/roboto-v20-latin-700.woff2") format("woff2"),
+       url("../fonts/roboto-v20-latin-700.woff") format("woff");
 }
 
 *{
@@ -22,7 +24,7 @@
 body{
   padding: 0;
   margin: 0;
-  font-family: "Product Sans", "Arial" serif;
+  font-family: "Roboto", "Arial", serif;
 }
 .container{
   max-width: 1148px;
