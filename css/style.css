@@ -12,7 +12,6 @@
   src: url("../fonts/roboto-v20-latin-700.woff2") format("woff2"),
        url("../fonts/roboto-v20-latin-700.woff") format("woff");
 }
-
 *{
   box-sizing: border-box;
 }
